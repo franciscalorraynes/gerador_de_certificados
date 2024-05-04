@@ -2,7 +2,7 @@ from docx import Document
 from docx.shared  import Pt  # para aumentar e diminuir o texto
 
 # abrindo o arquivo word
-file_word = Document(r"C:\Users\fllsa\Desktop\Curso de RPA\Word\Certificado1.docx")
+file_word = Document(r"caminho onde ta o docx")
 # tamanho
 style_file = file_word.styles["Normal"]
 
